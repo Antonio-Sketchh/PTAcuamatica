@@ -13,7 +13,11 @@ Stack: C# .NET 8 Console App + SQL Server.
 
 ## Configuración
 
-Crea el archivo `appsettings.json` en la raíz del proyecto:
+Renombra `appsettings.example.json` a `appsettings.json` e ingresa tus credenciales:
+
+```bash
+cp appsettings.example.json appsettings.json
+```
 
 ```json
 {
@@ -28,6 +32,8 @@ Crea el archivo `appsettings.json` en la raíz del proyecto:
   }
 }
 ```
+
+> `appsettings.json` está en `.gitignore` y no se sube al repositorio.
 
 ---
 
